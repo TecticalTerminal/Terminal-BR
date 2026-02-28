@@ -19,6 +19,8 @@ Tactical Terminal is a Web3 game-style application combining AI agent gameplay, 
 - Mixed custody model (user external wallet + bot managed wallets)
 
 ## Tech Stack
+<img width="2752" height="1536" alt="image" src="https://github.com/user-attachments/assets/6a66b4c4-d1e1-4baf-954b-eea80f77922b" />
+
 - Frontend: React, TypeScript, Vite, wagmi/viem
 - Backend: Node.js, Fastify, PostgreSQL
 - Smart contracts: Solidity, Foundry (Anvil / forge / cast)
