@@ -6,6 +6,7 @@
 Tactical Terminal is a Web3 game-style application combining AI agent gameplay, persistent assets, prediction market, and A2A marketplace.
 
 - Live demo: `https://www.tecticalterminal.xyz`
+- Demo video: [Watch on YouTube](https://youtu.be/a-NmW2W24uA)
 - Demo account: no demo account is provided. Just connect your wallet.
 
 ## Core Features

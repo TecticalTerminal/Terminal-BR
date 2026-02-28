@@ -6,6 +6,7 @@
 Tactical Terminal 是一个结合 AI Agent 对战、跨局资产、预测市场与 A2A 交易市场的 Web3 游戏型应用。
 
 - 在线演示地址：`https://www.tecticalterminal.xyz`
+- 演示视频：[在 YouTube 观看](https://youtu.be/a-NmW2W24uA)
 - 演示账号：不提供演示账号，连接钱包即可体验
 
 ## 主要功能
