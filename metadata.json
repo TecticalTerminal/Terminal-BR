@@ -1,0 +1,5 @@
+{
+  "name": "Tactical Terminal BR",
+  "description": "基于 8x8 网格的文字版大逃杀游戏，采用新野兽派/赛博终端设计风格。支持多达 8 名玩家（人类与 AI 混合），包含禁区机制、物资搜寻及回合制战斗。",
+  "requestFramePermissions": []
+}

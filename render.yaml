@@ -1,0 +1,50 @@
+services:
+  - type: web
+    name: tactical-api
+    env: docker
+    plan: starter
+    autoDeploy: true
+    healthCheckPath: /healthz
+    dockerfilePath: ./apps/api/Dockerfile
+    dockerContext: .
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: API_HOST
+        value: 0.0.0.0
+      - key: API_PORT
+        value: "10000"
+      - key: DATABASE_URL
+        sync: false
+      - key: MARKET_ENABLED
+        value: "true"
+      - key: MARKET_RPC_URL
+        sync: false
+      - key: MARKET_CONTRACT_ADDRESS
+        sync: false
+      - key: MARKET_OPERATOR_PRIVATE_KEY
+        sync: false
+      - key: MARKET_CHAIN_ID_EXPECTED
+        value: "11155111"
+      - key: MARKET_ROUND_LOCK_SECONDS
+        value: "180"
+      - key: AI_PROVIDER
+        value: openrouter
+      - key: AI_DEBUG
+        value: "false"
+      - key: AI_TIMEOUT_MS
+        value: "8000"
+      - key: AI_OPENROUTER_MAX_RETRIES
+        value: "1"
+      - key: AI_OPENROUTER_RETRY_BASE_DELAY_MS
+        value: "250"
+      - key: AI_OPENROUTER_COOLDOWN_MS
+        value: "5000"
+      - key: AI_FALLBACK_RULES
+        value: "true"
+      - key: OPENROUTER_API_KEY
+        sync: false
+      - key: OPENROUTER_MODEL
+        value: openai/gpt-4o-mini
+      - key: OPENROUTER_BASE_URL
+        value: https://openrouter.ai/api/v1

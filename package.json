@@ -1,0 +1,21 @@
+{
+  "name": "tactical-terminal-monorepo",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@10.30.1",
+  "scripts": {
+    "dev": "turbo run dev --filter=@tactical/web",
+    "dev:web": "turbo run dev --filter=@tactical/web",
+    "build": "turbo run build",
+    "build:web": "turbo run build --filter=@tactical/web",
+    "preview:web": "turbo run preview --filter=@tactical/web",
+    "typecheck": "turbo run typecheck",
+    "deploy:check:api": "bash scripts/deploy/check_env.sh api",
+    "deploy:check:web": "bash scripts/deploy/check_env.sh web",
+    "deploy:migrate:api": "bash scripts/deploy/migrate_api.sh",
+    "deploy:smoke:api": "bash scripts/deploy/smoke_api.sh"
+  },
+  "devDependencies": {
+    "turbo": "^2.4.4"
+  }
+}

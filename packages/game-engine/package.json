@@ -1,0 +1,17 @@
+{
+  "name": "@tactical/game-engine",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "types": "./src/index.ts",
+  "dependencies": {
+    "@tactical/shared-types": "workspace:*"
+  },
+  "scripts": {
+    "build": "echo \"@tactical/game-engine: source-only package\"",
+    "typecheck": "echo \"@tactical/game-engine: source-only package\""
+  }
+}

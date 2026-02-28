@@ -1,0 +1,30 @@
+{
+  "name": "@tactical/api",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "echo \"@tactical/api: runtime package (no transpile step yet)\"",
+    "typecheck": "tsc --noEmit",
+    "db:migrate": "tsx src/db/migrate.ts"
+  },
+  "dependencies": {
+    "@fastify/cors": "^11.1.0",
+    "@tactical/game-engine": "workspace:*",
+    "@tactical/shared-types": "workspace:*",
+    "dotenv": "^16.6.1",
+    "fastify": "^5.6.1",
+    "pg": "^8.16.3",
+    "uuid": "^13.0.0",
+    "ws": "^8.18.3",
+    "zod": "^4.1.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@types/pg": "^8.15.5",
+    "@types/ws": "^8.18.1",
+    "tsx": "^4.20.5",
+    "typescript": "~5.8.2"
+  }
+}

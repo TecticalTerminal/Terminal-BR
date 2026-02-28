@@ -1,0 +1,10 @@
+.git
+.turbo
+.pnpm-store
+node_modules
+**/node_modules
+apps/web/dist
+contracts/out
+contracts/cache
+*.log
+.DS_Store
